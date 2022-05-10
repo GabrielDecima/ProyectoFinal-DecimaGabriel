@@ -80,30 +80,38 @@
     
     <h1 class="tramites_h1">Trámites</h1>
 
-    <div class="cambio_titular ">
 
-        
-        <h2>Cambio de titularidad</h2>
-        <h5>Tener el servicio a tu nombre te permitirá agilizar tus trámites y gestiones.</h5>
-        <h4>¿En qué casos se debe hacer el trámite?</h4>
-        <h5>En general, se realiza por alguna de las siguientes situaciones:</h5>
+    <!-- Comienzo acordeon -->
+     <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
 
-        <ul>
-            <li>
-                Compra de una propiedad.   
-            </li>
-            <li>
-                Alquiler de una vivienda o local.
-            </li>
-            <li>
-                Fallecimiento del titular.
-            </li>
-            <li>
-                Divorcio o separación.
-            </li>
-        </ul>
-
-        <h4>REQUISITOS </h4>
+          <!-- Tramite Cambio titularidad -->
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Cambio de titularidad
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"><h5>Tener el servicio a tu nombre te permitirá agilizar tus trámites y gestiones.</h5>
+            <h4>¿En qué casos se debe hacer el trámite?</h4>
+            <h5>En general, se realiza por alguna de las siguientes situaciones:</h5>
+    
+            <ul>
+                <li>
+                    Compra de una propiedad.   
+                </li>
+                <li>
+                    Alquiler de una vivienda o local.
+                </li>
+                <li>
+                    Fallecimiento del titular.
+                </li>
+                <li>
+                    Divorcio o separación.
+                </li>
+            </ul>
+            
+            <h4>REQUISITOS </h4>
         <ul>
             <li>
                 DNI del nuevo usuario. En caso de persona jurídica: DNI y contrato o estatuto social.
@@ -115,27 +123,47 @@
                 Si sos propietario podés presentar: Escritura o declaratoria de herederos. Si el título no posee la dirección debe ir acompañado de la plancheta catastral.
             </li>
         </ul>
+        </div>
+      </div>
     </div>
 
-    </div>
+      <!-- Fin Tramite Cambio titularidad -->
 
-    <div class="debito_auto">
+      <!-- Debito Automatico -->
 
-        
-        <h2>Debito Automatico</h2>
-        <h4>Beneficios</h4>
-        <ul>
-            <li>Es un servicio práctico, seguro y sin costo.            </li>
-            <li>Tu resumen es válido como comprobante de pago.           </li>
-            <li>Podés realizar el stop debit hasta 72 horas antes del primer vencimiento de tu factura.        </li>
-            <li>En caso de alguna discrepancia con una factura ya abonada, podrás solicitar el reintegro a tu banco dentro de los 30 días posteriores.</li>
-        </ul>
-     
-    </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Debito Automatico
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            
+            <h4>Beneficios</h4>
+            <ul>
+                <li>Es un servicio práctico, seguro y sin costo.            </li>
+                <li>Tu resumen es válido como comprobante de pago.           </li>
+                <li>Podés realizar el stop debit hasta 72 horas antes del primer vencimiento de tu factura.        </li>
+                <li>En caso de alguna discrepancia con una factura ya abonada, podrás solicitar el reintegro a tu banco dentro de los 30 días posteriores.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-     <div class="baja_serv">
-        <h2>Baja servicio</h2>
-        <h5>La baja del servicio implica el retiro del medidor del domicilio.
+      <!-- FIN Debito Automatico -->
+
+      <!-- Baja del servicio -->
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Baja del servicio
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <h5>La baja del servicio implica el retiro del medidor del domicilio.
             Una vez retirado, el domicilio quedará sin servicio eléctrico.</h5>
         <h5>El trámite debe realizarse en las siguientes situaciones:        </h5>
         <ul>
@@ -144,9 +172,12 @@
             <li>Inmueble desocupado.      </li>
             <li>Demolición.</li>
         </ul>
-     </div>
+        </div>
 
-    
+        <!-- Baja del servicio -->
+        </div>
+      </div>
+    </div>
 
 </main>
 <!-- Fin del main -->
