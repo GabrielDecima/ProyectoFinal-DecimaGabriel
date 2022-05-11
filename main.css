@@ -2,7 +2,8 @@
 
 
 .body_instalaciones{
-    background-color: #e3e1f;
+    background-color: #1d558c;
+
 
 }
 
@@ -301,68 +302,27 @@ text-decoration: underline;
 
 
 /* ------------------------------ Estilos imagen de Instalaciones ----------------------------------- */
-.section-img img{
 
-    margin-left: 15px;
 
-}
-.section-img p{
 
-    margin-left: 15px;
-
-}
-
-form div{
+.contenedor-cards{
+    display: flex;
+    flex-direction:column;
+    align-items: end;
+    margin-right: 15px;
     
-    margin: 0px;
-    padding: 5px;
-   
-
+    
+    
 }
 
-.imagen-6{
+.card{
+  margin: 10px;
 
-    max-height: 600px;
-    max-width: 600px;
-
-
+    
 }
 
-.imagen-1 {
 
-    max-width: 80%;
-    max-height: 80%;
-}
 
-.imagen-2 {
-
-    max-width: 80%;
-    max-height: 80%;
-}
-.imagen-3 
-{
-
-    max-width: 80%;
-    max-height: 80%;
-}
-.imagen-4 
-{
-
-    max-width: 80%;
-    max-height: 80%;
-}
-.imagen-5 
-{
-
-    max-width: 80%;
-    max-height: 80%;
-}
-.imagen-6
-{
-
-    max-width: 80%;
-    max-height: 80%;
-}
 /* ------------------------------ FIN Estilos imagen de Instalaciones ----------------------------------- */
 
 
@@ -796,94 +756,23 @@ list-style-position: inside;
     
     
     /* Estilos imagen de Instalaciones */
-    .section-img img{
-    
-        margin-left: 15px;
-        margin-top: 15px;
-
-    
-    }
-    .section-img p{
-     margin-left: 15px;
-     display: flex;
-     align-items: center;
-    }
-    form div{
+ 
+    .contenedor-cards{
+        display: flex;
+        flex-direction:column;
+        align-items: end;
+        margin-right: 15px;
         
-        margin: 0px;
-        padding: 5px;
-    }
-    
-    .imagen-6{
-    
-        max-height: 600px;
-        max-width: 600px;
-    
-    
-    }
-
-    .descripcion-instalaciones{
-        font-size: 25px;
+        
         
     }
 
-    .section-img{
-
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-areas: 
-        "imagen-1 descrip-1"
-        "imagen-2 descrip-2"
-        "imagen-3 descrip-3"
-        "imagen-4 descrip-4"
-        "imagen-5 descrip-5"
-        "imagen-6 descrip-6"
-    
-        ;
-
+    .card{
+      margin: 10px;
+   
         
     }
 
-    .imagen-1{
-        grid-area: imagen-1;
-    }
-    .imagen-2{
-        grid-area: imagen-2;
-    }
-    .imagen-3{
-        grid-area: imagen-3;
-    }
-    .imagen-4{
-        grid-area: imagen-4;
-    }
-    
-    .imagen-5{
-        grid-area: imagen-5;
-    }
-    .imagen-6{
-        grid-area: imagen-6;
-    }
-    .descrip-1{
-        grid-area: descrip-1;
-    }
-
-    .descrip-2{
-        grid-area: descrip-2;
-    }
-    .descrip-3{
-        grid-area: descrip-3;
-    }
-
-    .descrip-4{
-        grid-area: descrip-4;
-    }
-
-    .descrip-5{
-        grid-area: descrip-5;
-    }
-    .descrip-6{
-        grid-area: descrip-6;
-    }
     /* Estilos imagen de Instalaciones ----------------------------------------------------*/
     
     
